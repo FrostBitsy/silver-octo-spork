@@ -10,6 +10,7 @@ pinMode(led, OUTPUT);
 }
 
 void loop(){
+  /* --------fungsi tombol--------  */
   nilaitombol = digitalRead(button);
   switch(nilaitombol){
     case 0: count++;
